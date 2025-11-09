@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ 𝐏𝐫𝐞𝐟𝐢𝐱: %8
 ┃ 🤖 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: %9
-┃ 👑 𝐎𝐰𝐧𝐞𝐫 𝐍𝐚𝐦𝐞: 𝐒𝐀𝐄𝐄𝐌 𝐒𝐇𝐄𝐈𝐊𝐇
+┃ 👑 𝐎𝐰𝐧𝐞𝐫 𝐍𝐚𝐦𝐞: 𝐒𝐀𝐄𝐄𝐌
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -43,10 +43,8 @@ module.exports.languages = {
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
-    "https://i.imgur.com/sxSn1K3.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/sxSn1K3.jpeg"
+    "https://i.imgur.com/VhR9lWY.jpeg",
+    "https://i.imgur.com/gkUE3Ew.jpeg",
 ];
 
 
@@ -144,7 +142,7 @@ ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ 𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}
 ┃ 🌼 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞:‌ ${global.config.BOTNAME || "𝐒𝐚𝐞𝐞𝐦 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 🌸 𝐎𝐰𝐧𝐞𝐫 𝐍𝐚𝐦𝐞: 𝐒𝐀𝐄𝐄𝐌 𝐒𝐇𝐄𝐈𝐊𝐇
+┃ 🌸 𝐎𝐰𝐧𝐞𝐫 𝐍𝐚𝐦𝐞: 𝐒𝐀𝐄𝐄𝐌
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
